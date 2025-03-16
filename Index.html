@@ -1,19 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مهدی - برنامه‌نویس</title>
+    <title>Mahdi</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
-    
-  <h1> Mahdi  </h1>
-  <p id="content"> This Is content  </p>
-  <script src="./scripts.js">
-  </script>
+    <header>
+        <div class="container">
+            <h1>Mahdi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">درباره من</a></li>
+                    <li><a href="#projects">پروژه‌ها</a></li>
+                    <li><a href="#contact">تماس</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<button onclick="console.log('Logged')"> Log Kon Sexy </button>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>درباره من</h2>
+            <p>سلام! من Mahdi هستم، یک توسعه‌دهنده وب و علاقه‌مند به فناوری. اینجا می‌توانید بیشتر درباره من و کارهایم بدانید.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>پروژه‌ها</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>پروژه ۱</h3>
+                    <p>توضیحات کوتاه درباره پروژه اول.</p>
+                </div>
+                <div class="project">
+                    <h3>پروژه ۲</h3>
+                    <p>توضیحات کوتاه درباره پروژه دوم.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>تماس با من</h2>
+            <p>اگر می‌خواهید با من در ارتباط باشید، از طریق ایمیل زیر با من تماس بگیرید:</p>
+            <a href="mailto:mahdi@example.com" class="email-link">mahdi@example.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© ۲۰۲۳ Mahdi. تمام حقوق محفوظ است.</p>
+        </div>
+    </footer>
 </body>
 </html>
